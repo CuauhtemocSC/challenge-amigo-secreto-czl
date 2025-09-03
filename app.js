@@ -30,6 +30,6 @@ function sortearAmigo() {
     const amigoElegido = amigos[indiceAleatorio].textContent;
     
  
-    listaAmigos.innerHTML = `<li>${amigoElegido}</li>`;
+    listaAmigos.innerHTML = `<li>El amigo elegido es: ${amigoElegido}</li>`;
     //alert(`¡El amigo elegido es: ${amigoElegido}!`);
 }
